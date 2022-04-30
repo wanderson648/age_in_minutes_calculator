@@ -45,6 +45,7 @@
         android:textStyle="bold" />
 
     <Button
+        android:id="@+id/btn_date_picker"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
@@ -55,7 +56,7 @@
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/id_date"
+        android:id="@+id/tv_selected_date"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
